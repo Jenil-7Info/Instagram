@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		700266CB297FA77F009B8C8A /* GVaribles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700266CA297FA77F009B8C8A /* GVaribles.swift */; };
-		7003EACB297E8674001BF3C2 /* NameOfScreenWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7003EACA297E8674001BF3C2 /* NameOfScreenWithImage.swift */; };
 		7003EACE297E86FF001BF3C2 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7003EACD297E86FF001BF3C2 /* SettingView.swift */; };
 		7003EAD2297E8CB8001BF3C2 /* PopoverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7003EAD1297E8CB8001BF3C2 /* PopoverScreen.swift */; };
 		70076F17296ED22900CD294F /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70076F16296ED22900CD294F /* APIHelper.swift */; };
@@ -26,6 +25,8 @@
 		705F1EA429659BFF00821AF1 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F1EA329659BFF00821AF1 /* GalleryView.swift */; };
 		705F1EA629659C3000821AF1 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F1EA529659C3000821AF1 /* MessageView.swift */; };
 		705F1EA829659C7100821AF1 /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F1EA729659C7100821AF1 /* MessageViewModel.swift */; };
+		7068AB0B29D2BB4D00B76498 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 7068AB0A29D2BB4D00B76498 /* FacebookLogin */; };
+		7068AB1029D2C57D00B76498 /* facebookLoginMangerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7068AB0F29D2C57D00B76498 /* facebookLoginMangerViewModel.swift */; };
 		708FBF1B296FCD1D0069649F /* HeaderMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FBF1A296FCD1D0069649F /* HeaderMessageView.swift */; };
 		708FBF1D296FCDB40069649F /* BottomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FBF1C296FCDB40069649F /* BottomTextFieldView.swift */; };
 		708FBF1F296FD4A60069649F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FBF1E296FD4A60069649F /* HomeView.swift */; };
@@ -37,6 +38,9 @@
 		708FBF2B296FE5910069649F /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FBF2A296FE5910069649F /* HomeHeaderView.swift */; };
 		708FBF2E296FEDFB0069649F /* ReelLikeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FBF2D296FEDFB0069649F /* ReelLikeArea.swift */; };
 		708FBF30297012B10069649F /* FeedLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FBF2F297012B10069649F /* FeedLikeView.swift */; };
+		7098636D29D2A2D0005B870A /* InstagramRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098636C29D2A2D0005B870A /* InstagramRootView.swift */; };
+		7098637129D2A3CA005B870A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098637029D2A3CA005B870A /* SignInView.swift */; };
+		7098637329D2A3D6005B870A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098637229D2A3D6005B870A /* SignUpView.swift */; };
 		70A230AD2976BE13002D7375 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A230AC2976BE13002D7375 /* EditProfileView.swift */; };
 		70A230AF2976BFC9002D7375 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A230AE2976BFC9002D7375 /* Image+Extension.swift */; };
 		70B2E8862967D30700AA6AD7 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2E8852967D30700AA6AD7 /* LoginViewModel.swift */; };
@@ -54,7 +58,6 @@
 
 /* Begin PBXFileReference section */
 		700266CA297FA77F009B8C8A /* GVaribles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVaribles.swift; sourceTree = "<group>"; };
-		7003EACA297E8674001BF3C2 /* NameOfScreenWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameOfScreenWithImage.swift; sourceTree = "<group>"; };
 		7003EACD297E86FF001BF3C2 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		7003EAD1297E8CB8001BF3C2 /* PopoverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverScreen.swift; sourceTree = "<group>"; };
 		70076F16296ED22900CD294F /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
@@ -73,6 +76,9 @@
 		705F1EA329659BFF00821AF1 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		705F1EA529659C3000821AF1 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		705F1EA729659C7100821AF1 /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
+		7068AB0E29D2C1A500B76498 /* Instagram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Instagram.entitlements; sourceTree = "<group>"; };
+		7068AB0F29D2C57D00B76498 /* facebookLoginMangerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookLoginMangerViewModel.swift; sourceTree = "<group>"; };
+		7068AB1C29D3142200B76498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		708FBF1A296FCD1D0069649F /* HeaderMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMessageView.swift; sourceTree = "<group>"; };
 		708FBF1C296FCDB40069649F /* BottomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextFieldView.swift; sourceTree = "<group>"; };
 		708FBF1E296FD4A60069649F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -84,6 +90,9 @@
 		708FBF2A296FE5910069649F /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		708FBF2D296FEDFB0069649F /* ReelLikeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelLikeArea.swift; sourceTree = "<group>"; };
 		708FBF2F297012B10069649F /* FeedLikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLikeView.swift; sourceTree = "<group>"; };
+		7098636C29D2A2D0005B870A /* InstagramRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramRootView.swift; sourceTree = "<group>"; };
+		7098637029D2A3CA005B870A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		7098637229D2A3D6005B870A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		70A230AC2976BE13002D7375 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		70A230AE2976BFC9002D7375 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
 		70B2E8852967D30700AA6AD7 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -103,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7068AB0B29D2BB4D00B76498 /* FacebookLogin in Frameworks */,
 				70F349342975524F0078FC26 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,14 +120,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7003EAC9297E863A001BF3C2 /* Halper */ = {
-			isa = PBXGroup;
-			children = (
-				7003EACA297E8674001BF3C2 /* NameOfScreenWithImage.swift */,
-			);
-			path = Halper;
-			sourceTree = "<group>";
-		};
 		7003EAD3297E9190001BF3C2 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +191,8 @@
 		7012BE60296BD42C0018EFEA /* Authenication */ = {
 			isa = PBXGroup;
 			children = (
+				7098636F29D2A3B2005B870A /* SignUp */,
+				7098636E29D2A3A8005B870A /* SignIn */,
 				70B2E87F2967D1A500AA6AD7 /* Login */,
 			);
 			path = Authenication;
@@ -205,41 +209,6 @@
 				70B2E8822967D1EC00AA6AD7 /* Profile */,
 			);
 			path = TabBar;
-			sourceTree = "<group>";
-		};
-		703E656E297BFD9500230021 /* MiddleProfile */ = {
-			isa = PBXGroup;
-			children = (
-				708FBF26296FDA930069649F /* ImageAndFollowerView.swift */,
-				708FBF28296FDB3C0069649F /* MiddleProfileView.swift */,
-				703E656F297BFDD400230021 /* EditButton */,
-			);
-			path = MiddleProfile;
-			sourceTree = "<group>";
-		};
-		703E656F297BFDD400230021 /* EditButton */ = {
-			isa = PBXGroup;
-			children = (
-				70A230AC2976BE13002D7375 /* EditProfileView.swift */,
-			);
-			path = EditButton;
-			sourceTree = "<group>";
-		};
-		703E6570297BFE8000230021 /* BottomProfile */ = {
-			isa = PBXGroup;
-			children = (
-				703E6572297BFEF700230021 /* BottomPhotoGridView.swift */,
-			);
-			path = BottomProfile;
-			sourceTree = "<group>";
-		};
-		703E6571297BFEC900230021 /* HeaderProfile */ = {
-			isa = PBXGroup;
-			children = (
-				703E656B297BFADA00230021 /* HeaderProfileView.swift */,
-				7003EAD1297E8CB8001BF3C2 /* PopoverScreen.swift */,
-			);
-			path = HeaderProfile;
 			sourceTree = "<group>";
 		};
 		705F1E77296598B200821AF1 = {
@@ -261,10 +230,10 @@
 		705F1E82296598B200821AF1 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				7068AB0E29D2C1A500B76498 /* Instagram.entitlements */,
 				705F1E942965993B00821AF1 /* Base */,
 				7012BE5E296BD34F0018EFEA /* Resources */,
 				705F1E9929659AB500821AF1 /* Utiliy */,
-				7003EAC9297E863A001BF3C2 /* Halper */,
 				705F1E91296598CE00821AF1 /* Model */,
 				705F1E92296598D600821AF1 /* View */,
 				70E0DC1A2966925C00ACC968 /* APIManger */,
@@ -293,6 +262,7 @@
 		705F1E92296598D600821AF1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7098636C29D2A2D0005B870A /* InstagramRootView.swift */,
 				7012BE60296BD42C0018EFEA /* Authenication */,
 				7012BE61296BD43E0018EFEA /* TabBar */,
 				70076F19296ED27D00CD294F /* Other */,
@@ -303,6 +273,7 @@
 		705F1E942965993B00821AF1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				7068AB1C29D3142200B76498 /* Info.plist */,
 				705F1E83296598B200821AF1 /* InstagramApp.swift */,
 			);
 			path = Base;
@@ -335,6 +306,39 @@
 				70F3493F2975611A0078FC26 /* ColorAssets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		7098636E29D2A3A8005B870A /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				7098637529D2A3E3005B870A /* ViewModel */,
+				7098637029D2A3CA005B870A /* SignInView.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		7098636F29D2A3B2005B870A /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				7098637429D2A3DA005B870A /* Viewmodel */,
+				7098637229D2A3D6005B870A /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		7098637429D2A3DA005B870A /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		7098637529D2A3E3005B870A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7068AB0F29D2C57D00B76498 /* facebookLoginMangerViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		709BA629296EBD3F00AA6E52 /* ViewModel */ = {
@@ -377,9 +381,12 @@
 			isa = PBXGroup;
 			children = (
 				705F1EA129659BC500821AF1 /* ProfileView.swift */,
-				703E6571297BFEC900230021 /* HeaderProfile */,
-				703E656E297BFD9500230021 /* MiddleProfile */,
-				703E6570297BFE8000230021 /* BottomProfile */,
+				703E656B297BFADA00230021 /* HeaderProfileView.swift */,
+				7003EAD1297E8CB8001BF3C2 /* PopoverScreen.swift */,
+				708FBF26296FDA930069649F /* ImageAndFollowerView.swift */,
+				708FBF28296FDB3C0069649F /* MiddleProfileView.swift */,
+				70A230AC2976BE13002D7375 /* EditProfileView.swift */,
+				703E6572297BFEF700230021 /* BottomPhotoGridView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -449,6 +456,7 @@
 			name = Instagram;
 			packageProductDependencies = (
 				70F349332975524F0078FC26 /* Kingfisher */,
+				7068AB0A29D2BB4D00B76498 /* FacebookLogin */,
 			);
 			productName = Instagram;
 			productReference = 705F1E80296598B200821AF1 /* Instagram.app */;
@@ -480,6 +488,7 @@
 			mainGroup = 705F1E77296598B200821AF1;
 			packageReferences = (
 				70F349322975524F0078FC26 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				7068AB0929D2BB4C00B76498 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 705F1E81296598B200821AF1 /* Products */;
 			projectDirPath = "";
@@ -518,10 +527,12 @@
 				705F1EA829659C7100821AF1 /* MessageViewModel.swift in Sources */,
 				70076F17296ED22900CD294F /* APIHelper.swift in Sources */,
 				708FBF23296FD70E0069649F /* ReelView.swift in Sources */,
+				7098637329D2A3D6005B870A /* SignUpView.swift in Sources */,
+				7068AB1029D2C57D00B76498 /* facebookLoginMangerViewModel.swift in Sources */,
 				708FBF1F296FD4A60069649F /* HomeView.swift in Sources */,
 				705F1EA029659B7900821AF1 /* StoryView.swift in Sources */,
 				70F3493E29755B280078FC26 /* GStructure.swift in Sources */,
-				7003EACB297E8674001BF3C2 /* NameOfScreenWithImage.swift in Sources */,
+				7098637129D2A3CA005B870A /* SignInView.swift in Sources */,
 				70F3493A297558DB0078FC26 /* StoryAPI.swift in Sources */,
 				705F1EA629659C3000821AF1 /* MessageView.swift in Sources */,
 				705F1E9C29659AF200821AF1 /* Dictionary+Extenstion.swift in Sources */,
@@ -547,6 +558,7 @@
 				708FBF30297012B10069649F /* FeedLikeView.swift in Sources */,
 				705F1EA429659BFF00821AF1 /* GalleryView.swift in Sources */,
 				70F3493129754DA00078FC26 /* StoryModel.swift in Sources */,
+				7098636D29D2A2D0005B870A /* InstagramRootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +615,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Instagram/Base/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -657,6 +670,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Instagram/Base/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -672,11 +686,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Instagram/Instagram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Instagram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Instagram/Base/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -700,11 +717,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Instagram/Instagram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Instagram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Instagram/Base/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -747,6 +767,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7068AB0929D2BB4C00B76498 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 		70F349322975524F0078FC26 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -758,6 +786,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7068AB0A29D2BB4D00B76498 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7068AB0929D2BB4C00B76498 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
 		70F349332975524F0078FC26 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 70F349322975524F0078FC26 /* XCRemoteSwiftPackageReference "Kingfisher" */;

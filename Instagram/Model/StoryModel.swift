@@ -29,3 +29,12 @@ struct Urls: Decodable {
     }
 }
 
+//MARK: - Story data
+struct StoryData {
+    
+    var regulerImageURL: String = ""
+    
+    init(regulerImageURL: String) {
+        self.regulerImageURL = regulerImageURL
+    }
+}

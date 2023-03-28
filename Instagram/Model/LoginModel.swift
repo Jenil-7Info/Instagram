@@ -10,7 +10,6 @@ import UIKit
 
 // MARK: - UserList
 struct UserList: Decodable {
-    
     let code: Int
     let message: String
     let data: DataClass
@@ -35,5 +34,23 @@ struct DataClass: Decodable {
         case createdAt = "created_at"
         case updatedAt = "updated_at"
         case token
+    }
+}
+
+//MARK: - Login data
+struct LoginData {
+    
+    var name: String = ""
+    var email: String = ""
+    var contact: String = ""
+    var token: String = ""
+    var message: String = ""
+    
+    init(name: String?, email: String?, contact: String?, token: String?, message: String?) {
+        self.name = name ?? ""
+        self.email = email ?? ""
+        self.contact = contact ?? ""
+        self.token = token ?? ""
+        self.message = message ?? ""
     }
 }

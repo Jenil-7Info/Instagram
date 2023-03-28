@@ -9,7 +9,10 @@ import SwiftUI
 
 struct SettingView: View {
     
+    @StateObject var fbMangerVM = facebookLoginMangerViewModel()
     @Environment(\.presentationMode) var presentationMode
+    @State private var isLogout: Bool = false
+    @AppStorage("isLogIn") private var isLogin: Bool = false
     @State private var text: String = ""
     
     var body: some View {
@@ -23,10 +26,11 @@ struct SettingView: View {
                         .frame(width: 25, height: 25)
                         .foregroundColor(.black)
                 }
-                .padding(.horizontal)
+                .padding(.leading)
                 
                 Text("Settings")
-                    .font(.title)
+                    .font(.title2)
+                
                 Spacer()
             }
             
@@ -67,15 +71,19 @@ struct SettingView: View {
                     } label: {
                         Text("Accounts Center")
                     }
-                    .padding()
+                    .padding(EdgeInsets(top: 15, leading: 15, bottom: 3, trailing: 21))
+                  //  .padding([.top, .horizontal])
                     .font(.title2)
                     .foregroundColor(.blue)
                     
                     Text("Control settings for connted expriences across Instagram, the Facebook app and messenger, including story and post sharing and logging in.")
                         .padding(.horizontal)
                     
+                    Divider()
+                        .padding(.top)
+                    
                     Text("Logins")
-                        .padding()
+                        .padding([.top, .horizontal])
                         .font(.title3)
                         .bold()
                     
@@ -90,12 +98,15 @@ struct SettingView: View {
                     
                     //MARK: - Log out Code pandding...
                     Button {
-                        
+                        withAnimation(.spring()) {
+                            fbMangerVM.SignOut()
+                            isLogin = false
+                        }
                     } label: {
                         Text("Log out")
                     }
                     .padding(.horizontal)
-                    
+                    .padding(.bottom)
                 }
             }
         }
@@ -182,6 +193,6 @@ struct SettingsListView: View {
                 NameOfScreenWithSystemImage(systemImage: "paintpalette", text: "Theme")
             }
         }
-        .padding(.bottom, 30)
+        .padding(.bottom)
     }
 }

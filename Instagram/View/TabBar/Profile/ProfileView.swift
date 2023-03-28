@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ProfileView: View {
     
+    @AppStorage("email") var email: String = ""
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .center) {
@@ -27,6 +29,9 @@ struct ProfileView: View {
                         
                         //Boi
                         Text("🧑🏻‍💻 IOS Devloper 🧑🏻‍💻")
+                            
+                        Text("Email: \(email)")
+                            .padding(.vertical, 5)
                     }
                     Spacer()
                 }

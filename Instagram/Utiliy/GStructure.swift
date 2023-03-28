@@ -6,31 +6,50 @@
 //
 
 import Foundation
+import SwiftUI
 
-//MARK: - Login data
-struct LoginData {
+//MARK: - Display SystemImage And Text
+struct NameOfScreenWithSystemImage: View {
     
-    var name: String = ""
-    var email: String = ""
-    var contact: String = ""
-    var token: String = ""
-    var message: String = ""
+    var systemImage: String
+    var text : String
+    var imageWidth: CGFloat = 30
+    var imageHeight: CGFloat = 30
     
-    init(name: String?, email: String?, contact: String?, token: String?, message: String?) {
-        self.name = name ?? ""
-        self.email = email ?? ""
-        self.contact = contact ?? ""
-        self.token = token ?? ""
-        self.message = message ?? ""
+    var body: some View {
+        HStack {
+            Image(systemName: systemImage)
+                .resizable()
+                .frame(width: imageWidth, height: imageHeight)
+                .foregroundColor(.black)
+            Text(text)
+                .font(.system(size: 18))
+                .foregroundColor(.black)
+            Spacer()
+        }
+        .padding(9)
     }
 }
 
-//MARK: - Story data
-struct StoryData {
+//MARK: - Display IconImage And Text
+struct NameOfScreenWithFaltIconImage: View {
     
-    var regulerImageURL: String = ""
+    var image: String
+    var text : String
+    var imageWidth: CGFloat = 30
+    var imageHeight: CGFloat = 30
     
-    init(regulerImageURL: String) {
-        self.regulerImageURL = regulerImageURL
+    var body: some View {
+        HStack {
+            Image(image)
+                .resizable()
+                .frame(width: imageWidth, height: imageHeight)
+                .foregroundColor(.black)
+            Text(text)
+                .font(.title2)
+                .foregroundColor(.black)
+            Spacer()
+        }
+        .padding()
     }
 }
