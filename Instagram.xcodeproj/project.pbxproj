@@ -78,7 +78,7 @@
 		705F1EA729659C7100821AF1 /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
 		7068AB0E29D2C1A500B76498 /* Instagram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Instagram.entitlements; sourceTree = "<group>"; };
 		7068AB0F29D2C57D00B76498 /* facebookLoginMangerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookLoginMangerViewModel.swift; sourceTree = "<group>"; };
-		7068AB1C29D3142200B76498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
+		708438B629D3F21000E47F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		708FBF1A296FCD1D0069649F /* HeaderMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMessageView.swift; sourceTree = "<group>"; };
 		708FBF1C296FCDB40069649F /* BottomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextFieldView.swift; sourceTree = "<group>"; };
 		708FBF1E296FD4A60069649F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -230,6 +230,7 @@
 		705F1E82296598B200821AF1 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				708438B629D3F21000E47F2D /* Info.plist */,
 				7068AB0E29D2C1A500B76498 /* Instagram.entitlements */,
 				705F1E942965993B00821AF1 /* Base */,
 				7012BE5E296BD34F0018EFEA /* Resources */,
@@ -273,7 +274,6 @@
 		705F1E942965993B00821AF1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				7068AB1C29D3142200B76498 /* Info.plist */,
 				705F1E83296598B200821AF1 /* InstagramApp.swift */,
 			);
 			path = Base;
@@ -692,7 +692,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Instagram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_FILE[sdk=*]" = Instagram/Base/Info.plist;
+				INFOPLIST_FILE = "/Users/seveninfosystem/Documents/IOS/SWIFT UI/Instagram/Instagram/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -723,7 +724,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Instagram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_FILE[sdk=*]" = Instagram/Base/Info.plist;
+				INFOPLIST_FILE = "/Users/seveninfosystem/Documents/IOS/SWIFT UI/Instagram/Instagram/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

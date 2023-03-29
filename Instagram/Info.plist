@@ -11,5 +11,16 @@
 			</array>
 		</dict>
 	</array>
+	<key>FacebookAppID</key>
+	<string>1228744671114302</string>
+	<key>FacebookClientToken</key>
+	<string>7dd1c4890f267e138b7b5959fea36ad8</string>
+	<key>FacebookDisplayName</key>
+	<string>SwiftUIPractice</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+	</array>
 </dict>
 </plist>

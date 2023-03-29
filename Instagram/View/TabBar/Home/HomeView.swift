@@ -22,6 +22,7 @@ struct HomeView: View {
                 
                 StoryView(nameOfStory: "Your Story")
                     .onAppear {
+                        debugPrint("----------- Story API -----------")
                         storyVM.callStoryAPI()
                     }
                 
