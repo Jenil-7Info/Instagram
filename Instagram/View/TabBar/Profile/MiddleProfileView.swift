@@ -16,7 +16,7 @@ struct MiddleProfileView: View {
         VStack {
             HStack {
                 
-                NavigationLink {
+                Button {
                     EditProfileView()
                         .navigationBarBackButtonHidden(true)
                 } label: {

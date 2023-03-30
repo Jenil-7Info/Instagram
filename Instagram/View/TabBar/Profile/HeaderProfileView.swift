@@ -22,14 +22,22 @@ struct HeaderProfileView: View {
             
             Spacer()
             
-            NavigationLink {
+            Menu {
+                
+                
+
+                Button {
+                    
+                } label: {
+                    Text("Post")
+                }
                 
             } label: {
                 Image(systemName: "plus.app")
                     .font(.title)
                     .foregroundColor(.black)
             }
-            
+
             Button {
                 self.isEnblePopover.toggle()
             } label: {
@@ -57,3 +65,20 @@ struct HeaderProfileView_Previews: PreviewProvider {
 }
 
 
+struct MenuStyleProfile: View {
+    
+    @State var name: String
+    @State var isTap: Bool
+    @State var action: () -> ()
+    
+    var body: some View {
+        Button {
+            isTap.toggle()
+        } label: {
+            Text(name)
+        }
+        .navigationDestination(isPresented: $isTap) {
+         //   action()
+        }
+    }
+}
