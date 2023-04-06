@@ -27,9 +27,6 @@ class facebookLoginMangerViewModel: ObservableObject {
                 debugPrint(error?.localizedDescription ?? "ERROR:- Facebook Not Login")
             }
             
-            //Sucessfully Login...
-            self.isLogin = true
-            
             //getting user detaild using FB Graph Request...
             let request = GraphRequest(graphPath: "me", parameters: ["fileds" : "email"])
             request.start { _, result, error in
@@ -47,11 +44,15 @@ class facebookLoginMangerViewModel: ObservableObject {
                 
                 //saving email useing the AppStorage
                 self.email = profilData["email"] as! String
+                
+                //Sucessfully Login...
+                self.isLogin = true
             }
         }
     }
     
     func SignOut() {
         manger.logOut()
+        self.isLogin = false
     }
 }

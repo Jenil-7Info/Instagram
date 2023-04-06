@@ -11,7 +11,8 @@ struct SettingView: View {
     
     @StateObject var fbMangerVM = facebookLoginMangerViewModel()
     @Environment(\.presentationMode) var presentationMode
-    @State private var isLogout: Bool = false
+    @Environment(\.dismiss) var dismiss
+    @State private var isLogoutAlert: Bool = false
     @AppStorage("isLogIn") private var isLogin: Bool = false
     @State private var text: String = ""
     
@@ -98,19 +99,39 @@ struct SettingView: View {
                     
                     //MARK: - Log out Code pandding...
                     Button {
-                        withAnimation(.spring()) {
-                            fbMangerVM.SignOut()
-                            isLogin = false
-                        }
+                        self.isLogoutAlert = true
                     } label: {
                         Text("Log out")
                     }
                     .padding(.horizontal)
                     .padding(.bottom)
+                    .alert("Alert", isPresented: $isLogoutAlert) {
+                        //Alert(title: Text("Alert"), primaryButton: .cancel(Text("Cancle")), secondaryButton: .destructive(Text("Logout")))
+                        HStack {
+                            Button {
+                                self.isLogoutAlert = false
+                            } label: {
+                                Text("Cancle")
+                            }
+                            Button {
+                                withAnimation(.spring()) {
+                                    dismiss.callAsFunction()
+                                    fbMangerVM.SignOut()
+                                    isLogin = false
+                                }
+                            } label: {
+                                Text("Logout")
+                                    .foregroundColor(.red)
+                            }
+                        }
+                    } message: {
+                        Text("Are you sure you want to logout?")
+                    }
                 }
             }
         }
     }
+    
 }
 
 struct SettingView_Previews: PreviewProvider {
@@ -165,28 +186,28 @@ struct SettingsListView: View {
                 NameOfScreenWithSystemImage(systemImage: "speaker.wave.2.circle", text: "Ads")
             }
             
-            //MARK: - Supervision
+            //MARK: - Accounts
             NavigationLink {
                 
             } label: {
                 NameOfScreenWithSystemImage(systemImage: "person.circle", text: "Accounts")
             }
             
-            //MARK: - Supervision
+            //MARK: - Help
             NavigationLink {
                 
             } label: {
                 NameOfScreenWithSystemImage(systemImage: "shippingbox.circle", text: "Help")
             }
             
-            //MARK: - Supervision
+            //MARK: - About
             NavigationLink {
                 
             } label: {
                 NameOfScreenWithSystemImage(systemImage: "i.circle", text: "About")
             }
             
-            //MARK: - Supervision
+            //MARK: - Theme
             NavigationLink {
                 
             } label: {

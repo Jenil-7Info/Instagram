@@ -27,6 +27,7 @@
 		705F1EA829659C7100821AF1 /* MessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F1EA729659C7100821AF1 /* MessageViewModel.swift */; };
 		7068AB0B29D2BB4D00B76498 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 7068AB0A29D2BB4D00B76498 /* FacebookLogin */; };
 		7068AB1029D2C57D00B76498 /* facebookLoginMangerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7068AB0F29D2C57D00B76498 /* facebookLoginMangerViewModel.swift */; };
+		707CF01029D7058900E812E7 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707CF00F29D7058900E812E7 /* PrivacyView.swift */; };
 		708FBF1B296FCD1D0069649F /* HeaderMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FBF1A296FCD1D0069649F /* HeaderMessageView.swift */; };
 		708FBF1D296FCDB40069649F /* BottomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FBF1C296FCDB40069649F /* BottomTextFieldView.swift */; };
 		708FBF1F296FD4A60069649F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FBF1E296FD4A60069649F /* HomeView.swift */; };
@@ -78,6 +79,7 @@
 		705F1EA729659C7100821AF1 /* MessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewModel.swift; sourceTree = "<group>"; };
 		7068AB0E29D2C1A500B76498 /* Instagram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Instagram.entitlements; sourceTree = "<group>"; };
 		7068AB0F29D2C57D00B76498 /* facebookLoginMangerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookLoginMangerViewModel.swift; sourceTree = "<group>"; };
+		707CF00F29D7058900E812E7 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
 		708438B629D3F21000E47F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		708FBF1A296FCD1D0069649F /* HeaderMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMessageView.swift; sourceTree = "<group>"; };
 		708FBF1C296FCDB40069649F /* BottomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextFieldView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		7003EAD3297E9190001BF3C2 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				707CF00E29D7057800E812E7 /* Privacy */,
 				7003EACD297E86FF001BF3C2 /* SettingView.swift */,
 			);
 			path = Setting;
@@ -306,6 +309,14 @@
 				70F3493F2975611A0078FC26 /* ColorAssets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		707CF00E29D7057800E812E7 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				707CF00F29D7058900E812E7 /* PrivacyView.swift */,
+			);
+			path = Privacy;
 			sourceTree = "<group>";
 		};
 		7098636E29D2A3A8005B870A /* SignIn */ = {
@@ -527,6 +538,7 @@
 				705F1EA829659C7100821AF1 /* MessageViewModel.swift in Sources */,
 				70076F17296ED22900CD294F /* APIHelper.swift in Sources */,
 				708FBF23296FD70E0069649F /* ReelView.swift in Sources */,
+				707CF01029D7058900E812E7 /* PrivacyView.swift in Sources */,
 				7098637329D2A3D6005B870A /* SignUpView.swift in Sources */,
 				7068AB1029D2C57D00B76498 /* facebookLoginMangerViewModel.swift in Sources */,
 				708FBF1F296FD4A60069649F /* HomeView.swift in Sources */,
@@ -692,7 +704,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Instagram/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "/Users/seveninfosystem/Documents/IOS/SWIFT UI/Instagram/Instagram/Info.plist";
+				INFOPLIST_FILE = Instagram/Info.plist;
 				"INFOPLIST_FILE[sdk=*]" = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PopoverScreen: View {
     @State private var isPresentSettingView: Bool = false
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         VStack {
@@ -31,6 +32,7 @@ struct PopoverScreen: View {
             }
             .fullScreenCover(isPresented: $isPresentSettingView) {
                 SettingView()
+                    .navigationBarBackButtonHidden(true)
             }
             
             //MARK: - Your acitivity Link
