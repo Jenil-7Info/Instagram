@@ -34,13 +34,12 @@ struct InstagramMainPage: View {
                 .tag(2)
                 .clipped()
             
-            LikeView()
+            HalfSheetView()
                 .tabItem {
                     Image(systemName: "heart")
                     Text("Like")
                 }
                 .tag(3)
-                .clipped()
             
             ProfileView()
                 .tabItem({
@@ -51,6 +50,7 @@ struct InstagramMainPage: View {
                 .clipped()
         }
         .navigationBarBackButtonHidden(true)
+        .tint(.pink)
     }
 }
 

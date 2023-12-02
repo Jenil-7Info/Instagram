@@ -11,7 +11,6 @@ import FBSDKCoreKit // facebook SDK
 
 @main
 struct InstagramApp: App {
-    
     var body: some Scene {
         WindowGroup {
             NavigationStack {
