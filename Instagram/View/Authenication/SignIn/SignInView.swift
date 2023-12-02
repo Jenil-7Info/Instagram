@@ -115,6 +115,7 @@ struct SignInView: View {
                             isForgatePass.toggle()
                         } label: {
                             Text("Forgot password?")
+                                .fontWeight(.semibold)
                         }
                         .navigationDestination(isPresented: $isForgatePass) {
                             EmptyView()
@@ -194,7 +195,9 @@ struct SignInView: View {
                 
                 HStack {
                     Text("Don't have an account?")
-                        .foregroundColor(Color.white.opacity(0.85))
+                        .fontWeight(.semibold)
+                        .foregroundColor(Color.white.opacity(0.75))
+                    
                     Button {
                         isSignUp.toggle()
                     } label: {
