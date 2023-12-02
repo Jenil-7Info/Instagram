@@ -39,7 +39,6 @@ struct SignInView: View {
                     .shadow(radius: 8)
                     .padding(.bottom)
                 
-                
                 //MARK: - textfileds and Forgate btn
                 VStack {
                     //phone number, username and email
